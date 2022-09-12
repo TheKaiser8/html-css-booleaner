@@ -31,7 +31,7 @@
     color: #20A9E5;
 }
 
-.row {
+.container {
     width: 100vw;
     max-width: 100%;
     margin-top: 20px;
@@ -42,14 +42,20 @@
     background-size: cover;
 }
 
-.lorem-ipsum {
+.row-head {
+    background-color: #20A9E5;
     text-align: left;
+    color: #FFFFFF;
 }
 
-.lorem-ipsum.short {
+.short {
     width: 20%;
 }
 
-.lorem-ipsum.long {
+.long {
     width: 60%;
+}
+
+.row-odd {
+    background-color: #B1E5F2;
 }
