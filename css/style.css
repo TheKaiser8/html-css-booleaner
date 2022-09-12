@@ -1,0 +1,15 @@
+.background-logo{
+    background-color: #4EA0FF;
+    background-image: url(../img/pattern.png);
+    background-size: contain;
+    height: 20vh;
+    width: 100vw;
+    position: relative;
+}
+
+#logo{
+    height: 50%;
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+}
