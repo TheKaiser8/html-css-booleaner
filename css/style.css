@@ -1,15 +1,43 @@
-.background-logo{
+.background-logo {
     background-color: #4EA0FF;
     background-image: url(../img/pattern.png);
     background-size: contain;
     height: 20vh;
     width: 100vw;
+    max-width: 100%;
     position: relative;
 }
 
-#logo{
+#logo {
     height: 50%;
     position: absolute;
     left: 5px;
     bottom: 5px;
+}
+
+.title {
+    margin-bottom: 0;
+}
+
+.text {
+    font-weight: bold;
+}
+
+.text.grey {
+    color: #808080;
+}
+
+.text.author {
+    color: #20A9E5;
+}
+
+.row {
+    width: 100vw;
+    max-width: 100%;
+    margin-top: 20px;
+    height: 362px;
+}
+
+.photo {
+    background-size: cover;
 }
