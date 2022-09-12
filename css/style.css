@@ -41,3 +41,15 @@
 .photo {
     background-size: cover;
 }
+
+.lorem-ipsum {
+    text-align: left;
+}
+
+.lorem-ipsum.short {
+    width: 20%;
+}
+
+.lorem-ipsum.long {
+    width: 60%;
+}
