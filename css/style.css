@@ -59,3 +59,24 @@
 .row-odd {
     background-color: #B1E5F2;
 }
+
+.suggestion {
+    height: 30vh;
+    width: 25vw;
+    background-size: cover;
+}
+
+.suggestion.box1 {
+    background-image: url(../img/monitor.jpg);
+}
+
+.suggestion.box2 {
+    background-image: url(../img/graph.jpg);
+}
+
+.article {
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 10px;
+    margin: 15px 0px;
+}
